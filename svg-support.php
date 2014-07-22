@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: 	SVG Support
-Plugin URI:		http://gowebben.com/
+Plugin URI:		http://wordpress.org/plugins/svg-support/
 Description: 	Allows SVG file uploads plus direct styling of SVG elements using CSS.
 Author: 		Benbodhi
 Author URI: 	http://benbodhi.com
