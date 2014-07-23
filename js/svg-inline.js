@@ -1,6 +1,6 @@
 jQuery(document).ready(function ($) {
 
-    if( cssTarget != "" ) { // first check if custom class field is not empty
+    if( cssTarget != "img." ) { // first check if custom class field is not empty
 
         jQuery( cssTarget ).each(function(){
             var $img = jQuery(this);
