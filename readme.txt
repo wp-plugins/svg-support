@@ -106,9 +106,13 @@ I will put the answers to any questions asked here.
 
 == Changelog ==
 
+= 2.1.2 =
+
+* Cleaned up trunk, tags and readme.txt to show correct changelog and update notice.
+
 = 2.1.1 =
 
-* Fixed JS file conditional - worked in local testing but not live
+* Fixed JS file conditional - worked in local testing but not live.
 
 = 2.1 =
 
@@ -116,7 +120,7 @@ I will put the answers to any questions asked here.
 
 = 2.0 =
 
-* Add admin settings page with instructions plus options for restricting to admin use only and setting a custom CSS target class.
+* Added an admin settings page with instructions plus options for restricting to admin use only and setting a custom CSS target class.
 * Whole plugin completely re-written and re-structured.
 * Added option to restrict SVG uploads to administrators only.
 * Added field for custom CSS target class.
@@ -127,6 +131,10 @@ I will put the answers to any questions asked here.
 * Initial Release.
 
 == Upgrade Notice ==
+
+= 2.1.2 =
+
+* Alittle bit of house cleaning, updates to changelog and readme.txt for correct output with current version.
 
 = 2.1.1 =
 
@@ -155,9 +163,8 @@ I will put the answers to any questions asked here.
 **Idea Behind / Philosophy:** I needed an easy way to include SVG support in sites instead of having to copy and paste the code for each one. I found a [really cool snippet](http://stackoverflow.com/questions/11978995/how-to-change-color-of-svg-image-using-css-jquery-svg-image-replacement) of jQuery written by Drew Baker a while ago and have used it (modified for WordPress) a few times until I was inspired to build it all into a plugin for ease of use and to share with others. Now styling SVG elements is super easy :)
 
 == Future Features ==
-* Help / Instructions Page **ADDED in 2.0**
-* Ability to choose user roles allowed to upload SVG format (eg. restrict to administrator) **ADDED in 2.0**
-* Option to choose specific user ID's and restrict usage for everyone else (helpful if you have multiple administrators)
+* Option to choose which user ID can access the settings
+* Option to choose specific user ID's for usage restriction (both helpful if you have multiple administrators)
 
 Again, feel free to [shoot me suggestions](mailto:wp@benbodhi.com)
 
