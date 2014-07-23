@@ -106,6 +106,10 @@ I will put the answers to any questions asked here.
 
 == Changelog ==
 
+= 2.1.1 =
+
+* Fixed JS file conditional - worked in local testing but not live
+
 = 2.1 =
 
 * Updates to language files for localization.
@@ -123,6 +127,10 @@ I will put the answers to any questions asked here.
 * Initial Release.
 
 == Upgrade Notice ==
+
+= 2.1.1 =
+
+* Update to conditional in JS file
 
 = 2.1 =
 
