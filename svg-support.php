@@ -8,7 +8,7 @@ Author URI: 	http://benbodhi.com
 Text Domain: 	svgsupport
 Domain Path:	/languages
 License: 		GPL2
-Version: 		2.1
+Version: 		2.1.1
 */
 /*  Copyright 2013  Benbodhi  (email : wp@benbodhi.com)
 
@@ -29,7 +29,7 @@ Version: 		2.1
 /********************************************
 * GLOBAL VARIABLES
 ********************************************/
-$plugin_version = '2.1';											// for use on admin pages
+$plugin_version = '2.1.1';											// for use on admin pages
 define( 'BODHI_SVGS_PLUGIN_PATH', plugin_dir_path( __FILE__ ) );	// define the absolute plugin path for includes
 $bodhi_svgs_options = get_option('bodhi_svgs_settings');			// retrieve our plugin settings from the options table
 
