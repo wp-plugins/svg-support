@@ -8,7 +8,7 @@ Stable tag: 2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Allows SVG file uploads plus direct styling of SVG elements using CSS.
+Allow SVG file uploads using the WordPress Media Library uploader plus direct styling of SVG elements using CSS.
 
 == Description ==
 
@@ -106,6 +106,10 @@ I will put the answers to any questions asked here.
 
 == Changelog ==
 
+= 2.1 =
+
+* Updates to language files for localization.
+
 = 2.0 =
 
 * Add admin settings page with instructions plus options for restricting to admin use only and setting a custom CSS target class.
@@ -120,13 +124,17 @@ I will put the answers to any questions asked here.
 
 == Upgrade Notice ==
 
+= 2.1 =
+
+* Updated language files for localization that were missed in version 2.0.
+
 = 2.0 =
 
-SVG Support has been completely re-written and re-structured. It now includes an admin settings page with instructions, plus options for restricting to admin use only and setting a custom CSS target class.
+* SVG Support has been completely re-written and re-structured. It now includes an admin settings page with instructions, plus options for restricting to admin use only and setting a custom CSS target class.
 
 = 1.0 =
 
-Initial Release.
+* Initial Release.
 
 == Translations ==
 

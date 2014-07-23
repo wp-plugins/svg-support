@@ -2,13 +2,13 @@
 /*
 Plugin Name: 	SVG Support
 Plugin URI:		http://wordpress.org/plugins/svg-support/
-Description: 	Allows SVG file uploads plus direct styling of SVG elements using CSS.
+Description: 	Allow SVG file uploads using the WordPress Media Library uploader plus direct styling of SVG elements using CSS.
 Author: 		Benbodhi
 Author URI: 	http://benbodhi.com
 Text Domain: 	svgsupport
 Domain Path:	/languages
 License: 		GPL2
-Version: 		2.0
+Version: 		2.1
 */
 /*  Copyright 2013  Benbodhi  (email : wp@benbodhi.com)
 
@@ -29,14 +29,14 @@ Version: 		2.0
 /********************************************
 * GLOBAL VARIABLES
 ********************************************/
-$plugin_version = '2.0';											// for use on admin pages
+$plugin_version = '2.1';											// for use on admin pages
 define( 'BODHI_SVGS_PLUGIN_PATH', plugin_dir_path( __FILE__ ) );	// define the absolute plugin path for includes
 $bodhi_svgs_options = get_option('bodhi_svgs_settings');			// retrieve our plugin settings from the options table
 
 /********************************************
 * INCLUDES - keeping it modular
 ********************************************/
-include( BODHI_SVGS_PLUGIN_PATH . 'admin/localization.php' );       // setup localization & languages
+include( BODHI_SVGS_PLUGIN_PATH . 'functions/localization.php' );   // setup localization & languages
 include( BODHI_SVGS_PLUGIN_PATH . 'admin/admin-init.php' );         // initialize admin menu & settings
 include( BODHI_SVGS_PLUGIN_PATH . 'functions/mime-types.php' );		// setup mime types support for SVG
 include( BODHI_SVGS_PLUGIN_PATH . 'functions/enqueue.php' );		// enqueue js & css for inline replacement
