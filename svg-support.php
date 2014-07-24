@@ -36,9 +36,10 @@ $bodhi_svgs_options = get_option('bodhi_svgs_settings');			// retrieve our plugi
 /********************************************
 * INCLUDES - keeping it modular
 ********************************************/
-include( BODHI_SVGS_PLUGIN_PATH . 'functions/localization.php' );   // setup localization & languages
 include( BODHI_SVGS_PLUGIN_PATH . 'admin/admin-init.php' );         // initialize admin menu & settings
+include( BODHI_SVGS_PLUGIN_PATH . 'admin/plugin-action-links.php' );// add links to the plugin on the plugins page
 include( BODHI_SVGS_PLUGIN_PATH . 'functions/mime-types.php' );		// setup mime types support for SVG
 include( BODHI_SVGS_PLUGIN_PATH . 'functions/enqueue.php' );		// enqueue js & css for inline replacement
+include( BODHI_SVGS_PLUGIN_PATH . 'functions/localization.php' );   // setup localization & languages
 
 ?>

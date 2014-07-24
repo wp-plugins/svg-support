@@ -106,6 +106,10 @@ I will put the answers to any questions asked here.
 
 == Changelog ==
 
+= 2.1.3 =
+
+* Added plugin_action_links file for custom menus on plugin page.
+
 = 2.1.2 =
 
 * Cleaned up trunk, tags and readme.txt to show correct changelog and update notice.
@@ -132,9 +136,13 @@ I will put the answers to any questions asked here.
 
 == Upgrade Notice ==
 
+= 2.1.3 =
+
+* Added a link on the plugins page to the plugin settings page for easy access after install.
+
 = 2.1.2 =
 
-* Alittle bit of house cleaning, updates to changelog and readme.txt for correct output with current version.
+* A little bit of house cleaning, updates to changelog and readme.txt for correct output with current version.
 
 = 2.1.1 =
 
