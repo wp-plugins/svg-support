@@ -122,6 +122,7 @@
 						<div class="inside">
 							<p><?php _e( 'You can read about this plugin in detail on', 'svgsupport' ); ?> <a target="_blank" href="http://wordpress.org/plugins/svg-support/"><?php _e( 'The WordPress Plugin Repository', 'svgsupport' ); ?></a>.</p>
 							<p><?php _e( 'Need help?', 'svgsupport' ); ?> <a target="_blank" href="http://wordpress.org/support/plugin/svg-support"><?php _e( 'Visit Support', 'svgsupport' ); ?></a>.</p>
+							<p><a target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=F7W2NUFAVQGW2"><?php _e( 'Buy Benbodhi a Beer &rarr;', 'svgsupport' ); ?></a>
 							<p>&copy; <a target="_blank" href="http://benbodhi.com">Benbodhi</a> <?php _e( 'from', 'svgsupport' ); ?> <a target="_blank" href="http://gowebben.com">GoWebben</a>.
 						</div> <!-- .inside -->
 

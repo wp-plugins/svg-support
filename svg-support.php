@@ -8,7 +8,7 @@ Author URI: 	http://benbodhi.com
 Text Domain: 	svgsupport
 Domain Path:	/languages
 License: 		GPL2
-Version: 		2.1.3
+Version: 		2.1.4
 */
 /*  Copyright 2013  Benbodhi  (email : wp@benbodhi.com)
 
@@ -29,17 +29,18 @@ Version: 		2.1.3
 /********************************************
 * GLOBAL VARIABLES
 ********************************************/
-$plugin_version = '2.1.3';											// for use on admin pages
+$plugin_version = '2.1.4';											// for use on admin pages
+$plugin_file = plugin_basename(__FILE__);							// plugin file for reference
 define( 'BODHI_SVGS_PLUGIN_PATH', plugin_dir_path( __FILE__ ) );	// define the absolute plugin path for includes
 $bodhi_svgs_options = get_option('bodhi_svgs_settings');			// retrieve our plugin settings from the options table
 
 /********************************************
 * INCLUDES - keeping it modular
 ********************************************/
-include( BODHI_SVGS_PLUGIN_PATH . 'admin/admin-init.php' );         // initialize admin menu & settings
-include( BODHI_SVGS_PLUGIN_PATH . 'admin/plugin-action-links.php' );// add links to the plugin on the plugins page
-include( BODHI_SVGS_PLUGIN_PATH . 'functions/mime-types.php' );		// setup mime types support for SVG
-include( BODHI_SVGS_PLUGIN_PATH . 'functions/enqueue.php' );		// enqueue js & css for inline replacement
-include( BODHI_SVGS_PLUGIN_PATH . 'functions/localization.php' );   // setup localization & languages
+include( BODHI_SVGS_PLUGIN_PATH . 'admin/admin-init.php' );         		// initialize admin menu & settings page
+include( BODHI_SVGS_PLUGIN_PATH . 'admin/plugin-action-meta-links.php' );	// add links to the plugin on the plugins page
+include( BODHI_SVGS_PLUGIN_PATH . 'functions/mime-types.php' );				// setup mime types support for SVG
+include( BODHI_SVGS_PLUGIN_PATH . 'functions/enqueue.php' );				// enqueue js & css for inline replacement & admin
+include( BODHI_SVGS_PLUGIN_PATH . 'functions/localization.php' );			// setup localization & languages
 
 ?>

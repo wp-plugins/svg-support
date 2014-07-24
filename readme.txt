@@ -106,6 +106,14 @@ I will put the answers to any questions asked here.
 
 == Changelog ==
 
+= 2.1.4 =
+
+* Fixed plugin settings link (on plugins page)
+* Added more links - Support & Donate
+* Modified the settings page a little
+* Cleaned up settings page with CSS
+* Satisfied my OCD tendencies a little
+
 = 2.1.3 =
 
 * Added plugin_action_links file for custom menus on plugin page.
@@ -135,6 +143,10 @@ I will put the answers to any questions asked here.
 * Initial Release.
 
 == Upgrade Notice ==
+
+= 2.1.4 =
+
+* Some more re-arranging, added a few helpful links, updated language files, tended to my OCD a bit.
 
 = 2.1.3 =
 
