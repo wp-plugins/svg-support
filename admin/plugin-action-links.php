@@ -4,7 +4,7 @@
 ********************************************/
 
 // add filter to svg-support only
-add_filter( 'plugin_action_links_' . plugin_basename(__FILE__), 'bodhi_svgs_plugin_action_links' );
+add_filter( 'plugin_action_links_svg-support/svg-support.php', 'bodhi_svgs_plugin_action_links' );
 
 function bodhi_svgs_plugin_action_links( $links ) {
 
