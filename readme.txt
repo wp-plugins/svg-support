@@ -3,7 +3,7 @@ Contributors: Benbodhi
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=F7W2NUFAVQGW2
 Tags: svg, vector, css, style, mime, mime type, embed, img, inline
 Requires at least: 3.4
-Tested up to: 3.9.1
+Tested up to: 3.9.2
 Stable tag: 2.1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -57,6 +57,7 @@ As with allowing uploads of any files, there is potential risks involved. Only a
 = Translations =
 
 * English - default, always included
+* Serbian - translated and submitted by Ogi Djuraskovic from [first site guide]( http://firstsiteguide.com/)
 * *Your translation? - [Just send it in](http://gowebben.com/contact/)*
 
 *Note:* This plugin is localized/translateable by default. This is very important for all users worldwide. So please contribute your language to the plugin to make it even more useful.<br />
@@ -106,6 +107,10 @@ I will put the answers to any questions asked here.
 
 == Changelog ==
 
+= 2.1.5 =
+
+* Added Serbian translation, submitted by Ogi Djuraskovic
+
 = 2.1.4 =
 
 * Fixed plugin settings link (on plugins page)
@@ -144,6 +149,10 @@ I will put the answers to any questions asked here.
 
 == Upgrade Notice ==
 
+= 2.1.5 =
+
+* Added Serbian translation, submitted by Ogi Djuraskovic
+
 = 2.1.4 =
 
 * Some more re-arranging, added a few helpful links, updated language files, tended to my OCD a bit.
@@ -175,6 +184,7 @@ I will put the answers to any questions asked here.
 == Translations ==
 
 * English - default, always included
+* Serbian - translated and submitted by Ogi Djuraskovic from [first site guide]( http://firstsiteguide.com/)
 * *Your translation? - [Just send it in](mailto:wp@benbodhi.com)*
 
 *Note:* This plugin is localized/translateable by default. This is very important for all users worldwide. So please contribute your language to the plugin to make it even more useful. For translating I recommend the awesome ["Codestyling Localization" plugin](http://wordpress.org/extend/plugins/codestyling-localization/) and for validating the ["Poedit Editor"](http://www.poedit.net/).
@@ -189,4 +199,6 @@ I will put the answers to any questions asked here.
 Again, feel free to [shoot me suggestions](mailto:wp@benbodhi.com)
 
 == Credits ==
-[Benbodhi Mantra](http://benbodhi.com/) [@benbodhi](http://twitter.com/benbodhi) from [GoWebben](http://gowebben.com/) [@GoWebben](http://twitter.com/gowebben)
+Plugin by [Benbodhi Mantra](http://benbodhi.com/) [@benbodhi](http://twitter.com/benbodhi) from [GoWebben](http://gowebben.com/) [@GoWebben](http://twitter.com/gowebben)
+
+Thanks to Ogi Djuraskovic from [first site guide]( http://firstsiteguide.com/) for providing the Serbian translation!
