@@ -1,0 +1,239 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SVG Support v2.1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-07-24 02:31:01+0000\n"
+"Last-Translator: Benbodhi <wp@benbodhi.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: AUSTRALIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: admin/admin-init.php:12
+#@ svgsupport
+msgid "SVG Support Options and Instructions"
+msgstr ""
+
+#. translators: plugin header field 'Name'
+#: admin/admin-init.php:13
+#: svg-support.php:0
+#@ svgsupport
+msgid "SVG Support"
+msgstr ""
+
+#: admin/admin-init.php:26
+#@ svgsupport
+msgid "You can't play with this."
+msgstr ""
+
+#: admin/plugin-action-meta-links.php:27
+#@ svgsupport
+msgid "Get Support"
+msgstr ""
+
+#: admin/plugin-action-meta-links.php:28
+#@ svgsupport
+msgid "Donate to author"
+msgstr ""
+
+#: admin/svgs-settings-page.php:4
+#@ svgsupport
+msgid "SVG Support Settings and Usage"
+msgstr ""
+
+#: admin/svgs-settings-page.php:12
+#@ svgsupport
+msgid "Introduction"
+msgstr ""
+
+#: admin/svgs-settings-page.php:15
+#@ svgsupport
+msgid "When using SVG images on your WordPress site, it can be hard to style elements within the SVG using CSS. <strong>Now you can, easily!</strong>"
+msgstr ""
+
+#: admin/svgs-settings-page.php:16
+#@ svgsupport
+msgid "This plugin not only provides SVG Support like the name says, it also allows you to easily embed your full SVG file's code using a simple IMG tag. By adding the class <code>style-svg</code> to your IMG elements, this plugin dynamically replaces any IMG elements containing the <code>style-svg</code> class with your complete SVG."
+msgstr ""
+
+#: admin/svgs-settings-page.php:17
+#@ svgsupport
+msgid "The main purpose of this is to allow styling of SVG elements. Usually your styling options are restricted when using <code>embed</code>, <code>object</code> or <code>img</code> tags alone."
+msgstr ""
+
+#: admin/svgs-settings-page.php:34
+#@ svgsupport
+msgid "Settings"
+msgstr ""
+
+#: admin/svgs-settings-page.php:46
+#@ svgsupport
+msgid "Restrict to Administrators"
+msgstr ""
+
+#: admin/svgs-settings-page.php:51
+#@ svgsupport
+msgid "Yes"
+msgstr ""
+
+#: admin/svgs-settings-page.php:51
+#@ svgsupport
+msgid " Restricts SVG upload priveledges to Administrators."
+msgstr ""
+
+#: admin/svgs-settings-page.php:56
+#@ svgsupport
+msgid "CSS Class to target"
+msgstr ""
+
+#: admin/svgs-settings-page.php:59
+#@ svgsupport
+msgid "The default target class is <code>style-svg</code>. You can change it to your own class such as <code>my-class</code> by typing it here.<br />Leave blank to use the default class."
+msgstr ""
+
+#: admin/svgs-settings-page.php:65
+#@ svgsupport
+msgid "Save Changes"
+msgstr ""
+
+#: admin/svgs-settings-page.php:76
+#@ svgsupport
+msgid "Usage"
+msgstr ""
+
+#: admin/svgs-settings-page.php:79
+#@ svgsupport
+msgid "You can simply upload SVG images to your media library like any other file."
+msgstr ""
+
+#: admin/svgs-settings-page.php:80
+#@ svgsupport
+msgid "Now, embed your SVG image like a standard image with the addition of adding the class <code>style-svg</code> (or your custom class from above) to any IMG tags that you want this plugin to swap out with your actual SVG code."
+msgstr ""
+
+#: admin/svgs-settings-page.php:81
+#@ svgsupport
+msgid "For example:"
+msgstr ""
+
+#: admin/svgs-settings-page.php:84
+#@ svgsupport
+msgid "or"
+msgstr ""
+
+#: admin/svgs-settings-page.php:87
+#@ svgsupport
+msgid "The whole IMG tag element will now be dynamically replaced by the actual code of your SVG, making the inner content targetable."
+msgstr ""
+
+#: admin/svgs-settings-page.php:88
+#@ svgsupport
+msgid "This allows you to target elements within your SVG using CSS."
+msgstr ""
+
+#: admin/svgs-settings-page.php:90
+#@ svgsupport
+msgid "Note: Your uploaded image needs to be an SVG file for this plugin to replace the img tag with the inline SVG code. It will not create SVG files for you."
+msgstr ""
+
+#: admin/svgs-settings-page.php:107
+#@ svgsupport
+msgid "Features"
+msgstr ""
+
+#: admin/svgs-settings-page.php:110
+#@ svgsupport
+msgid "SVG Support for your media library"
+msgstr ""
+
+#: admin/svgs-settings-page.php:111
+#@ svgsupport
+msgid "Style SVG elements directly using CSS"
+msgstr ""
+
+#: admin/svgs-settings-page.php:112
+#@ svgsupport
+msgid "Restrict to Administrators only"
+msgstr ""
+
+#: admin/svgs-settings-page.php:113
+#@ svgsupport
+msgid "Extremely Simple To Use"
+msgstr ""
+
+#: admin/svgs-settings-page.php:121
+#@ svgsupport
+msgid "About the plugin"
+msgstr ""
+
+#: admin/svgs-settings-page.php:123
+#@ svgsupport
+msgid "You can read about this plugin in detail on"
+msgstr ""
+
+#: admin/svgs-settings-page.php:123
+#@ svgsupport
+msgid "The WordPress Plugin Repository"
+msgstr ""
+
+#: admin/svgs-settings-page.php:124
+#@ svgsupport
+msgid "Need help?"
+msgstr ""
+
+#: admin/svgs-settings-page.php:124
+#@ svgsupport
+msgid "Visit Support"
+msgstr ""
+
+#: admin/svgs-settings-page.php:125
+#@ svgsupport
+msgid "Buy Benbodhi a Beer &rarr;"
+msgstr ""
+
+#: admin/svgs-settings-page.php:126
+#@ svgsupport
+msgid "from"
+msgstr ""
+
+#. translators: plugin header field 'PluginURI'
+#: svg-support.php:0
+#@ svgsupport
+msgid "http://wordpress.org/plugins/svg-support/"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: svg-support.php:0
+#@ svgsupport
+msgid "Allow SVG file uploads using the WordPress Media Library uploader plus direct styling of SVG elements using CSS."
+msgstr ""
+
+#. translators: plugin header field 'Author'
+#: svg-support.php:0
+#@ svgsupport
+msgid "Benbodhi"
+msgstr ""
+
+#. translators: plugin header field 'AuthorURI'
+#: svg-support.php:0
+#@ svgsupport
+msgid "http://benbodhi.com"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: svg-support.php:0
+#@ svgsupport
+msgid "2.1.4"
+msgstr ""
+
