@@ -12,7 +12,7 @@ function bodhi_svgs_inline() {
 
 	$css_target = 'img.'. $bodhi_svgs_options['css_target']; // sets the custom class for use in JS
 
-	wp_register_script('bodhi_svg_inline', plugins_url('svg-support/js/svg-inline.js'), array(), '1.0.0', false );
+	wp_register_script('bodhi_svg_inline', plugins_url('svg-support/js/svg-inline.js'), array('jquery'), '1.0.0', false );
 	wp_enqueue_script('bodhi_svg_inline');
 	wp_localize_script( 'bodhi_svg_inline', 'cssTarget', $css_target );
 

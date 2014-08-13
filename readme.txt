@@ -107,9 +107,13 @@ I will put the answers to any questions asked here.
 
 == Changelog ==
 
+= 2.1.6 =
+
+* Added missing jQuery dependency in /functions/enqueue.php (pointed out by [walbach](http://wordpress.org/support/profile/waldbach)) - was loading SVG Support JS before jQuery.
+
 = 2.1.5 =
 
-* Added Serbian translation, submitted by Ogi Djuraskovic
+* Added Serbian translation, submitted by Ogi Djuraskovic.
 
 = 2.1.4 =
 
@@ -149,9 +153,13 @@ I will put the answers to any questions asked here.
 
 == Upgrade Notice ==
 
+= 2.1.6 =
+
+* Important update! Added missing jQuery dependency in /functions/enqueue.php - was loading SVG Support JS before jQuery.
+
 = 2.1.5 =
 
-* Added Serbian translation, submitted by Ogi Djuraskovic
+* Added Serbian translation, submitted by Ogi Djuraskovic.
 
 = 2.1.4 =
 
@@ -167,7 +175,7 @@ I will put the answers to any questions asked here.
 
 = 2.1.1 =
 
-* Update to conditional in JS file
+* Update to conditional in JS file.
 
 = 2.1 =
 
