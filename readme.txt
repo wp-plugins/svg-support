@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: svg, vector, css, style, mime, mime type, embed, img, inline
 Requires at least: 3.4
 Tested up to: 4.0
-Stable tag: 2.1.6
+Stable tag: 2.1.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -107,6 +107,10 @@ I will put the answers to any questions asked here.
 
 == Changelog ==
 
+= 2.1.7 =
+
+* Tested in WordPress 4.0 and added plugin icons for the new interface.
+
 = 2.1.6 =
 
 * Added missing jQuery dependency in /functions/enqueue.php (pointed out by [walbach](http://wordpress.org/support/profile/waldbach)) - was loading SVG Support JS before jQuery.
@@ -152,6 +156,10 @@ I will put the answers to any questions asked here.
 * Initial Release.
 
 == Upgrade Notice ==
+
+= 2.1.7 =
+
+* Tested in WordPress 4.0 and added plugin icons for the new interface.
 
 = 2.1.6 =
 
@@ -203,6 +211,7 @@ I will put the answers to any questions asked here.
 == Future Features ==
 * Option to choose which user ID can access the settings
 * Option to choose specific user ID's for usage restriction (both helpful if you have multiple administrators)
+* Better compatibility with visual editor and post formats
 
 Again, feel free to [shoot me suggestions](mailto:wp@benbodhi.com)
 
