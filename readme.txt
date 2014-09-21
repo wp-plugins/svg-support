@@ -12,6 +12,14 @@ Allow SVG file uploads using the WordPress Media Library uploader plus direct st
 
 == Description ==
 
+= Note: =
+This plugin works up to WordPress v4.0 but after v3.9.2 the thumbnails do not display in the new media library grid view or modal window from the grid view.
+You can still see them in the list view of v4.0 (they are super small) and can see them perfectly when in the edit media screen from the list view.
+
+Apart from this, **all of the main functionality is still working**. I am working on a fix to display the thumbnails in the media library.
+
+= Description =
+
 When using SVG images on your WordPress site, it can be hard to style elements within the SVG using CSS. **Now you can, easily!**
 
 Scalable Vector Graphics (SVG) are becoming common place in modern web design, allowing you to embed images with small file sizes that are scalable to any visual size without loss of quality.
