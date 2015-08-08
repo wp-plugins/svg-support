@@ -176,7 +176,7 @@ I will put the answers to any questions asked here.
 
 = 2.2 =
 
-UPGRADE NOTICE
+* Significant changes, added functionality, please BACKUP BEFORE UPDATING just in case.
 
 = 2.1.7 =
 
