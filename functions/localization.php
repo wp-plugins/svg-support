@@ -1,7 +1,10 @@
 <?php
-/********************************************
-* INTERNATIONALIZATION / LOCALIZATION
-********************************************/
+/**
+ * INTERNATIONALIZATION / LOCALIZATION
+ */
+if ( ! defined( 'ABSPATH' ) ) {
+    exit; // Exit if accessed directly
+}
 
 add_action( 'plugins_loaded', 'bodhi_svgs_localization' );
 

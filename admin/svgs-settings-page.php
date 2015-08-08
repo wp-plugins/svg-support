@@ -52,6 +52,29 @@
 										</td>
 									</tr>
 									<tr valign="top">
+										<!-- Allow choice of js in footer true or false -->
+										<th scope="row">
+											<label for="bodhi_svgs_settings[js_foot_choice]"><strong><?php _e( 'Output JS in Footer?', 'svgsupport' ); ?></strong></label>
+										</th>
+										<td>
+											<?php printf(
+												'<input id="bodhi_svgs_settings[js_foot_choice]" name="bodhi_svgs_settings[js_foot_choice]" type="checkbox" %2$s />', 'bodhi_svgs_settings_js_foot_choice', checked( isset( $bodhi_svgs_options['js_foot_choice'] ), true, false ) ); ?>
+											<?php _e( 'Yes', 'svgsupport' ); ?><br /><small class="description"><?php _e(' Normally, scripts are placed in <code>head</code> of the HTML document. If this parameter is true, the script is placed before the closing <code>body</code> tag. This requires the theme to have the <code>wp_footer()</code> template tag in the appropriate place.', 'svgsupport' ); ?></small>
+										</td>
+									</tr>
+									<tr valign="top">
+										<!-- Automatically insert class to target in images when inserting into posts/pages -->
+										<th scope="row">
+											<label for="bodhi_svgs_settings[auto_insert_class]"><strong><?php _e( 'Automatically insert class?', 'svgsupport' ); ?></strong></label>
+										</th>
+										<td>
+											<?php printf(
+												'<input id="bodhi_svgs_settings[auto_insert_class]" name="bodhi_svgs_settings[auto_insert_class]" type="checkbox" %2$s />', 'bodhi_svgs_settings_auto_insert_class', checked( isset( $bodhi_svgs_options['auto_insert_class'] ), true, false ) ); ?>
+											<?php _e( 'Yes', 'svgsupport' ); ?><br /><small class="description"><?php _e(' Checking this will make sure that either the default class or the custom one you set below is inserted into the style attributes of <code>img</code> tags when you insert images. Additionally, it will remove all of the default WordPress classes.', 'svgsupport' ); ?></small>
+										</td>
+									</tr>
+									<tr valign="top">
+									<?php echo $bodhi_svgs_options['css_target']; ?>
 										<th scope="row">
 											<label for="bodhi_svgs_settings[css_target]"><strong><?php _e( 'CSS Class to target', 'svgsupport' ); ?></strong></label>
 										</th>
@@ -87,7 +110,9 @@
 							<p><?php _e( 'The whole IMG tag element will now be dynamically replaced by the actual code of your SVG, making the inner content targetable.', 'svgsupport' ); ?><br />
 							<?php _e( 'This allows you to target elements within your SVG using CSS.', 'svgsupport' ); ?></p>
 
-							<p><em><?php _e( 'Note: Your uploaded image needs to be an SVG file for this plugin to replace the img tag with the inline SVG code. It will not create SVG files for you.', 'svgsupport' ); ?></em></p>
+							<p><em><?php _e( 'Please Note:', 'svgsupport' ); ?></em>
+							<br><em><?php _e( '- You will need to set your own height and width in your CSS for SVG files to display correctly.', 'svgsupport' ); ?></em>
+							<br><em><?php _e( '- Your uploaded image needs to be an SVG file for this plugin to replace the img tag with the inline SVG code. It will not create SVG files for you.', 'svgsupport' ); ?></em></p>
 						
 						</div> <!-- .inside -->
 					
@@ -104,7 +129,7 @@
 
 					<div class="postbox">
 
-						<h3><span><?php _e( 'Features', 'svgsupport' ); ?></span></h3>
+						<h3><span><?php _e( 'Plugin Features', 'svgsupport' ); ?></span></h3>
 						<div class="inside">
 							<ul>
 								<li><?php _e( 'SVG Support for your media library', 'svgsupport' ); ?></li>
@@ -118,12 +143,21 @@
 
 					<div class="postbox">
 
-						<h3><span><?php _e( 'About the plugin', 'svgsupport' ); ?></span></h3>
+						<h3><span><?php _e( 'About The Plugin', 'svgsupport' ); ?></span></h3>
 						<div class="inside">
 							<p><?php _e( 'You can read about this plugin in detail on', 'svgsupport' ); ?> <a target="_blank" href="http://wordpress.org/plugins/svg-support/"><?php _e( 'The WordPress Plugin Repository', 'svgsupport' ); ?></a>.</p>
 							<p><?php _e( 'Need help?', 'svgsupport' ); ?> <a target="_blank" href="http://wordpress.org/support/plugin/svg-support"><?php _e( 'Visit Support', 'svgsupport' ); ?></a>.</p>
 							<p><a target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=F7W2NUFAVQGW2"><?php _e( 'Buy Benbodhi a Beer &rarr;', 'svgsupport' ); ?></a>
 							<p>&copy; <a target="_blank" href="http://benbodhi.com">Benbodhi</a> <?php _e( 'from', 'svgsupport' ); ?> <a target="_blank" href="http://gowebben.com">GoWebben</a>.
+						</div> <!-- .inside -->
+
+					</div> <!-- .postbox -->
+
+					<div class="postbox">
+
+						<h3><span><?php _e( 'GoWebben Hosting', 'svgsupport' ); ?></span></h3>
+						<div class="inside">
+							<p><a target="_blank" href="https://secure.gowebben.com/cart.php?promocode=SVGSUPPORT"><?php _e( 'Claim your FREE $25 credit from', 'svgsupport' ); ?> GoWebben</a> - <?php _e( 'No catch, just free credit for using this plugin! It will be applied automatically using the link provided, but in any case you can simply use code: SVGSUPPORT during checkout.', 'svgsupport' ); ?></p>
 						</div> <!-- .inside -->
 
 					</div> <!-- .postbox -->

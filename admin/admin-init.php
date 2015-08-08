@@ -1,7 +1,10 @@
 <?php
-/********************************************
-* ADMIN INIT
-********************************************/
+/**
+ * ADMIN INIT
+ */
+if ( ! defined( 'ABSPATH' ) ) {
+    exit; // Exit if accessed directly
+}
 
 // add menu item to wp-admin
 add_action( 'admin_menu', 'bodhi_svgs_admin_menu' );

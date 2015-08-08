@@ -2,8 +2,8 @@
 Contributors: Benbodhi
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=F7W2NUFAVQGW2
 Tags: svg, vector, css, style, mime, mime type, embed, img, inline
-Requires at least: 3.4
-Tested up to: 4.2
+Requires at least: 4.0
+Tested up to: 4.3
 Stable tag: 2.1.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -30,21 +30,15 @@ The main purpose of this is to allow styling of SVG elements. Usually your styli
 * Set custom css target class
 * **Extremely Simple To Use**
 
-= Note: =
-This plugin works up to WordPress v4.0 but after v3.9.2 the thumbnails do not display in the new media library grid view or modal window from the grid view.
-You can still see them in the list view of v4.0 (they are super small) and can see them perfectly when in the edit media screen from the list view.
-
-Apart from this, **all of the main functionality is still working**. I am working on a fix to display the thumbnails in the media library.
-
 = Usage =
 
 Firstly, install SVG Support (this plugin) and activate it.
 
 Once activated, you can simply upload SVG images to your media library like any other file.
 
-As an administrator, you can go to the admin settings page 'Settings' > 'SVG Support' and restrict SVG file uploads to administrators only and even define a custom class to target if you wish.
+As an administrator, you can go to the admin settings page 'Settings' > 'SVG Support' and restrict SVG file uploads to administrators only and even define a custom CSS class to target if you wish.
 
-Now, embed your SVG images just like you would a standard image with the addition of adding the class `"style-svg"` (or the custom class you defined) to your IMG tags that you want this plugin to swap out with your actual SVG code.<br />
+Now, embed your SVG images just like you would a standard image with the addition of adding (in text view) the class `"style-svg"` (or the custom class you defined) to your IMG tags that you want this plugin to swap out with your actual SVG code. You can also remove any other attributes from the tag and use CSS to manage the size.<br />
 For example:
 
 `<img class="style-svg" alt="alt-text" src="image-source.svg" />`
@@ -53,6 +47,8 @@ or
 
 The whole IMG tag element will now be dynamically replaced by the actual code of your SVG, making the inner content targetable.<br />
 This allows you to target elements within your SVG using CSS.
+
+Please Note: You will need to set your own height and width in your CSS for SVG files to display correctly.
 
 *If you are having any issues, please use the support tab and I will try my best to get back to you quickly*
 
@@ -67,7 +63,7 @@ As with allowing uploads of any files, there is potential risks involved. Only a
 * *Your translation? - [Just send it in](http://gowebben.com/contact/)*
 
 *Note:* This plugin is localized/translateable by default. This is very important for all users worldwide. So please contribute your language to the plugin to make it even more useful.<br />
-For translating I recommend the awesome ["Codestyling Localization" plugin](http://wordpress.org/extend/plugins/codestyling-localization/) and for validating the ["Poedit Editor"](http://www.poedit.net/).
+For translating I recommend ["Loco Translate" plugin](https://wordpress.org/plugins/loco-translate/) and for validating the ["Poedit Editor"](http://www.poedit.net/).
 
 = Feedback =
 
@@ -112,6 +108,21 @@ I will put the answers to any questions asked here.
 2. Admin settings page
 
 == Changelog ==
+
+= 2.2 =
+
+* Added support to make SVG thumbnails visible in all media library screens.
+* Added SVGZ to the mime types.
+* Automatically removes the width and height attributes when inserting SVG files.
+* Added ability to choose whether the target class is automatically inserted into img tags or not, stripping the default WordPress classes.
+* Added ability to choose whether script is output in footer - true or false.
+* Blocked direct access to PHP files.
+* Added SCSS support using CodeKit - minified CSS + JS files.
+* Updated spelling for incorrect function name.
+* Changed comment formatting across all files for conistency.
+* Added link to $25 Free credit at GoWebben on the settings page.
+* Tested in WordPress 4.3.
+* Updated Readme file.
 
 = 2.1.7 =
 
@@ -163,6 +174,10 @@ I will put the answers to any questions asked here.
 
 == Upgrade Notice ==
 
+= 2.2 =
+
+UPGRADE NOTICE
+
 = 2.1.7 =
 
 * Tested in WordPress 4.0 and added plugin icons for the new interface.
@@ -209,7 +224,7 @@ I will put the answers to any questions asked here.
 * Serbian - translated and submitted by Ogi Djuraskovic from [first site guide]( http://firstsiteguide.com/)
 * *Your translation? - [Just send it in](mailto:wp@benbodhi.com)*
 
-*Note:* This plugin is localized/translateable by default. This is very important for all users worldwide. So please contribute your language to the plugin to make it even more useful. For translating I recommend the awesome ["Codestyling Localization" plugin](http://wordpress.org/extend/plugins/codestyling-localization/) and for validating the ["Poedit Editor"](http://www.poedit.net/).
+*Note:* This plugin is localized/translateable by default. This is very important for all users worldwide. So please contribute your language to the plugin to make it even more useful. For translating I recommend ["Loco Translate" plugin](https://wordpress.org/plugins/loco-translate/) and for validating the ["Poedit Editor"](http://www.poedit.net/).
 
 == Additional Info ==
 **Idea Behind / Philosophy:** I needed an easy way to include SVG support in sites instead of having to copy and paste the code for each one. I found a [really cool snippet](http://stackoverflow.com/questions/11978995/how-to-change-color-of-svg-image-using-css-jquery-svg-image-replacement) of jQuery written by Drew Baker a while ago and have used it (modified for WordPress) a few times until I was inspired to build it all into a plugin for ease of use and to share with others. Now styling SVG elements is super easy :)
