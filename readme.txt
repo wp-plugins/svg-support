@@ -105,7 +105,7 @@ I will put the answers to any questions asked here.
 == Screenshots ==
 
 1. Activated plugin
-2. Admin settings page
+2. Admin settings page (with new settings since V2.2)
 
 == Changelog ==
 
