@@ -70,7 +70,7 @@ For translating I recommend ["Loco Translate" plugin](https://wordpress.org/plug
 * I am open to your suggestions and feedback - Thanks for checking out this plugin!
 * Drop me a line [@benbodhi](http://twitter.com/benbodhi) or [@GoWebben](http://twitter.com/gowebben) on Twitter
 * Follow me on [my Facebook page](http://www.facebook.com/gowebben)
-* Or circle [+GoWebben](http://googleplus.url) on Google Plus ;-)
+* Or circle [+GoWebben](https://plus.google.com/+GoWebben) on Google Plus ;-)
 
 *Note:* This is the second plugin I have submitted to the WordPress repository, I hope you like it. Please take a moment to rate it and click 'works' under compatibility with your version of WordPress.<br />
 As always, feel free to send me any suggestions.
