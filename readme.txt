@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: svg, vector, css, style, mime, mime type, embed, img, inline
 Requires at least: 4.0
 Tested up to: 4.3
-Stable tag: 2.1.7
+Stable tag: 2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
