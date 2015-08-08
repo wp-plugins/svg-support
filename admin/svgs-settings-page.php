@@ -74,7 +74,6 @@
 										</td>
 									</tr>
 									<tr valign="top">
-									<?php echo $bodhi_svgs_options['css_target']; ?>
 										<th scope="row">
 											<label for="bodhi_svgs_settings[css_target]"><strong><?php _e( 'CSS Class to target', 'svgsupport' ); ?></strong></label>
 										</th>
