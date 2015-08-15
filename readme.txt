@@ -70,7 +70,7 @@ For translating I recommend ["Loco Translate" plugin](https://wordpress.org/plug
 * I am open to your suggestions and feedback - Thanks for checking out this plugin!
 * Drop me a line [@benbodhi](http://twitter.com/benbodhi) or [@GoWebben](http://twitter.com/gowebben) on Twitter
 * Follow me on [my Facebook page](http://www.facebook.com/gowebben)
-* Or circle [+GoWebben](https://plus.google.com/+GoWebben) on Google Plus ;-)
+* Or circle [+GoWebben](https://plus.google.com/+Gowebben/) on Google Plus ;-)
 
 *Note:* This is the second plugin I have submitted to the WordPress repository, I hope you like it. Please take a moment to rate it and click 'works' under compatibility with your version of WordPress.<br />
 As always, feel free to send me any suggestions.
@@ -105,9 +105,13 @@ I will put the answers to any questions asked here.
 == Screenshots ==
 
 1. Activated plugin
-2. Admin settings page (with new settings since V2.2)
+2. Admin settings page
 
 == Changelog ==
+
+= 2.2.1 =
+
+* Changed anonymous function in svg-support/functions/thumbnail-display.php line 15 to prevent fatal error in older PHP versions.
 
 = 2.2 =
 
@@ -173,6 +177,10 @@ I will put the answers to any questions asked here.
 * Initial Release.
 
 == Upgrade Notice ==
+
+= 2.2.1 =
+
+* Minor change to remove anonymous function that triggered a fatal error in older PHP versions.
 
 = 2.2 =
 

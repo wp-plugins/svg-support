@@ -12,7 +12,8 @@ function bodhi_svgs_display_thumbs() {
 	
 	ob_start();
 
-	add_action( 'shutdown', function() {
+	add_action( 'shutdown', 'bodhi_svgs_thumbs_filter', 0 );
+	function bodhi_svgs_thumbs_filter() {
 	    
 	    $final = '';
 	    $ob_levels = count( ob_get_level() );
@@ -25,7 +26,7 @@ function bodhi_svgs_display_thumbs() {
 
 	    echo apply_filters( 'final_output', $final );
 
-	}, 0 );
+	}
 
 	add_filter( 'final_output', function( $content ) {
 
