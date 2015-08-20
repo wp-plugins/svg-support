@@ -3,7 +3,7 @@ Contributors: Benbodhi
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=F7W2NUFAVQGW2
 Tags: svg, vector, css, style, mime, mime type, embed, img, inline
 Requires at least: 4.0
-Tested up to: 4.3
+Tested up to: 4.4
 Stable tag: 2.2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -184,7 +184,7 @@ I will put the answers to any questions asked here.
 
 = 2.2.2 =
 
-* Fix - Another change from anonymous function that wa triggering errors for some.
+* Fix - Another change from anonymous function that was triggering errors for some.
 
 = 2.2.1 =
 
