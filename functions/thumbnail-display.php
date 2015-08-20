@@ -28,7 +28,8 @@ function bodhi_svgs_display_thumbs() {
 
 	}
 
-	add_filter( 'final_output', function( $content ) {
+	add_filter( 'final_output', 'bodhi_svgs_final_output' );
+	function bodhi_svgs_final_output( $content ) {
 
 		$content = str_replace(
 			'<# } else if ( \'image\' === data.type && data.sizes && data.sizes.full ) { #>',
@@ -52,5 +53,5 @@ function bodhi_svgs_display_thumbs() {
 
 		return $content;
 
-	});
+	}
 }

@@ -109,6 +109,10 @@ I will put the answers to any questions asked here.
 
 == Changelog ==
 
+= 2.2.2 =
+
+* Changed another anonymous function in svg-support/functions/thumbnail-display.php that was causing errors for some.
+
 = 2.2.1 =
 
 * Changed anonymous function in svg-support/functions/thumbnail-display.php line 15 to prevent fatal error in older PHP versions.
@@ -177,6 +181,10 @@ I will put the answers to any questions asked here.
 * Initial Release.
 
 == Upgrade Notice ==
+
+= 2.2.2 =
+
+* Fix - Another change from anonymous function that wa triggering errors for some.
 
 = 2.2.1 =
 
